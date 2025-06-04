@@ -46,6 +46,7 @@ button {
   padding: 10px;
   border-radius: 5px;
   margin: 20px;
+  color: #61300f;
 }
 
 .introbutton {
@@ -58,4 +59,86 @@ button {
   flex-direction: column;
   align-items: center;
 
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 5px solid #ff7f50;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.navbar {
+  position:fixed;
+  top: 0;
+}
+
+.navbuttons {
+  background-color: transparent;
+  color:#ff7f50;
+}
+
+#tracker-user {
+  font-weight: 600;
+  font-size: 60;
+}
+
+.tracker {
+  display: flex;
+  flex-direction: column;
+}
+
+.balancecontainer {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20;
+}
+
+#balance, #transactiontitle {
+  font-weight: 600;
+  font-size: 30;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff7f50;
+  padding: 20;
+  border-radius: 10px;
+}
+
+.form-label {
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10;
+
+}
+
+.form-values {
+  background-color: #fff;
+  padding: 10;
+  border: hidden;
+  margin-bottom: 20;
+}
+
+input:focus {
+  outline-color: #ff7f50;
+}
+
+.transaction-container {
+  position: absolute;
+  top: 100;
+}
+
+.transactionlabels {
+  text-align: center;
+}
+
+.filterbutton {
+  min-width: 100px;
 }
